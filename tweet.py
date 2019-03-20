@@ -23,7 +23,7 @@ def main():
 def timeline():
     tweets_from_timeline = api.home_timeline()
     return render_template("main.html, tweets_from_timeline")
-    
+ print("hello")
 
 
 
